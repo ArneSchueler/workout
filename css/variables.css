@@ -1,0 +1,15 @@
+:root {
+  /* color */
+  --bg-color: #2e2e2e;
+  --accent-color: #1fa3c5;
+  --bg-card: #f2fcff;
+  --bg-grey: #e3e3e3;
+  --signal-color-red: #f05d60;
+  --signal-color-green: #5df05d;
+
+  --bg-timer-active: #d4f3fb;
+  --bg-timer-stopped: #fbd4d5;
+
+  /* radius */
+  --border-radius: 8px;
+}
