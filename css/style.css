@@ -118,3 +118,7 @@ body > h1 {
   background: var(--bg-grey);
   border-radius: var(--border-radius);
 }
+
+.navigation-btns {
+  display: flex;
+}
