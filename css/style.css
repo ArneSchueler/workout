@@ -100,3 +100,21 @@ body > h1 {
 .card-wrapper img {
   width: 316px;
 }
+
+.info {
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+}
+
+.reps {
+  padding: 12px 24px;
+  background: var(--bg-grey);
+  border-radius: var(--border-radius);
+}
+
+.sets {
+  padding: 12px 24px;
+  background: var(--bg-grey);
+  border-radius: var(--border-radius);
+}
