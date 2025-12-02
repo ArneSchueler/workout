@@ -1,11 +1,11 @@
 console.log("Timer script loaded");
 
-const timerValueEl = document.getElementById("timer-value");
-const timerDisplayEl = document.getElementById("timer-display-wrapper");
+const timerValueEl = document.getElementById("timerValue");
+const timerDisplayEl = document.getElementById("timerDisplayWrapper");
 
-const btnStart = document.getElementById("btn-start");
-const btnStop = document.getElementById("btn-stop");
-const btnReset = document.getElementById("btn-reset");
+const btnStart = document.getElementById("btnStart");
+const btnStop = document.getElementById("btnStop");
+const btnReset = document.getElementById("btnReset");
 
 let intervalId = null;
 

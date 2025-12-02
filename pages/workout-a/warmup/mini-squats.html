@@ -6,6 +6,8 @@
     <title>Warmup</title>
     <link rel="stylesheet" href="../../../css/style.css" />
     <script src="../../../js/timer.js" defer></script>
+    <script src="../../../js/workoutPage.js" defer></script>
+    <script src="../../../js/workoutObject.js" defer></script>
   </head>
   <body>
     <h1>Warmup</h1>
@@ -16,10 +18,14 @@
         <div class="timer-display" id="timer-display-wrapper">
           <span id="timer-value">45</span> Sekunden
         </div>
+        <div class="info">
+          <p class="reps">Sets: <strong>3</strong></p>
+          <p class="sets">Reps: <strong>8-12</strong></p>
+        </div>
         <div class="timer-btn-group">
           <button class="btn btn-primary" id="btn-start">Start</button>
           <button class="btn btn-stop" id="btn-stop">Stop</button>
-          <button class="btn btn-primary" id="btn-reset">Reset</button>
+          <button class="btn btn-grey" id="btn-reset">Reset</button>
         </div>
       </div>
       <div class="description">
@@ -33,7 +39,7 @@
       <p class="hint">Wärmt Beine + Brust + Schultern gleichzeitig auf.</p>
     </div>
     <div class="navigation-btns">
-      <a href="knee-raises.html" class="btn btn-primary">Zurück</a>
+      <a href="knee-raises.html" class="btn btn-grey">Zurück</a>
       <a href="glute-activation.html" class="btn btn-primary">Weiter</a>
     </div>
   </body>

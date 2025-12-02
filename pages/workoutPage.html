@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Warmup</title>
+    <link rel="stylesheet" href="../../../css/style.css" />
+    <script src="../../../js/timer.js" defer></script>
+    <script src="../../../js/workoutObject.js" defer></script>
+    <script src="../../../js/workoutPage.js" defer></script>
+  </head>
+  <body>
+    <h1>Warmup</h1>
+    <div class="card-wrapper">
+      <h2 id="exerciseName">Mini-Squats mit Armheben</h2>
+      <img id="exerciseImg" src="" alt="" />
+      <div class="timer-wrapper" id="timerWrapper">
+        <div class="timer-display" id="timerDisplayWrapper">
+          <span id="timerValue">45</span> Sekunden
+        </div>
+
+        <div class="timer-btn-group">
+          <button class="btn btn-primary" id="btnStart">Start</button>
+          <button class="btn btn-stop" id="btnStop">Stop</button>
+          <button class="btn btn-grey" id="btnReset">Reset</button>
+        </div>
+      </div>
+      <div class="info" id="repetitionWrapper">
+        <p class="sets">Sets: <strong id="setValue">3</strong></p>
+        <p class="reps">Reps: <strong id="repValue">8-12</strong></p>
+      </div>
+      <div class="exerciseDescription">
+        <h3>Ausführung</h3>
+        <ul>
+          <li>¼-Tiefe Kniebeugen</li>
+          <li>Arme gleichzeitig nach vorne oder hoch führen</li>
+          <li>Brust bleibt offen/li></li>
+        </ul>
+      </div>
+      <p class="hint" id="exerciseUse">
+        Wärmt Beine + Brust + Schultern gleichzeitig auf.
+      </p>
+    </div>
+    <div class="navigation-btns">
+      <button id="btnPrev" class="btn btn-grey">Zurück</button>
+      <button id="btnNext" class="btn btn-primary">Weiter</button>
+    </div>
+  </body>
+</html>
