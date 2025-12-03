@@ -1,3 +1,5 @@
+import { workoutA } from "./workoutObject.js";
+
 const workoutTypeElement = document.getElementById("workoutType");
 
 const exerciseNameElement = document.getElementById("exerciseName");
@@ -17,6 +19,10 @@ const exerciseDescriptionListElement = document.getElementById(
 const exerciseUseElement = document.getElementById("exerciseUse");
 
 let currentWorkout = workoutA[0];
+
+export function getCurrentWorkout() {
+  return currentWorkout;
+}
 
 renderWorkout(currentWorkout);
 
@@ -50,7 +56,6 @@ function renderWorkout(workout) {
 
   workout.exerciseDescription.forEach((element, index) => {
     const step = document.createElement("li");
-    console.log(element);
     step.textContent = element;
     exerciseDescriptionListElement.append(step);
   });

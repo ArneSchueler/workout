@@ -247,7 +247,7 @@ const plank = new Workout(
 // Hip Hinge Mobilisation,Knee Raises + Ankle Mobility,Mini-Squats mit Armheben,Glute Activation (Glute Bridge),Scapula Push-ups,Leichter Satz Box Squats
 // Box Squats, Glute Bridges, Bankdrücken, schulterdrücken,heel-elevated Squats, seitenheben, plank
 
-const workoutA = [
+export const workoutA = [
   // Warmup A
   verticalMountainClimber,
   kneeRaises,

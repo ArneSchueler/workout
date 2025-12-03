@@ -1,3 +1,5 @@
+import { getCurrentWorkout } from "./workoutPage.js";
+
 console.log("Timer script loaded");
 
 const timerValueEl = document.getElementById("timerValue");
@@ -9,9 +11,9 @@ const btnReset = document.getElementById("btnReset");
 
 let intervalId = null;
 
-const initialSeconds = parseInt(timerValueEl.innerHTML, 10);
+const initialSeconds = getCurrentWorkout().exerciseTimer;
 
-const finishedSound = new Audio("assets/sound/interface-03-277552.mp3");
+const finishedSound = new Audio("../assets/sound/interface-03-277552.mp3");
 
 btnStart.hidden = false;
 btnStop.hidden = true;
