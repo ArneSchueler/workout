@@ -1,3 +1,5 @@
+const workoutTypeElement = document.getElementById("workoutType");
+
 const exerciseNameElement = document.getElementById("exerciseName");
 const exerciseImgElement = document.getElementById("exerciseImg");
 
@@ -8,8 +10,8 @@ const repetitionWrapperElement = document.getElementById("repetitionWrapper");
 const repValueElement = document.getElementById("repValue");
 const setValueElementf = document.getElementById("setValue");
 
-const exerciseDescriptionElement = document.getElementById(
-  "exerciseDescription"
+const exerciseDescriptionListElement = document.getElementById(
+  "exerciseDescriptionList"
 );
 
 const exerciseUseElement = document.getElementById("exerciseUse");
@@ -21,6 +23,8 @@ renderWorkout(currentWorkout);
 function renderWorkout(workout) {
   console.log(workout.exerciseName);
   console.log(workout.exerciseImg);
+
+  workoutTypeElement.textContent = workout.workoutType;
 
   exerciseNameElement.textContent = workout.exerciseName;
   exerciseImgElement.src = workout.exerciseImg;
@@ -41,6 +45,15 @@ function renderWorkout(workout) {
   } else {
     repetitionWrapperElement.style.display = "none";
   }
+
+  exerciseDescriptionListElement.innerHTML = "";
+
+  workout.exerciseDescription.forEach((element, index) => {
+    const step = document.createElement("li");
+    console.log(element);
+    step.textContent = element;
+    exerciseDescriptionListElement.append(step);
+  });
 }
 
 btnNext.addEventListener("click", () => {
@@ -50,7 +63,6 @@ btnNext.addEventListener("click", () => {
   if (!currentWorkout.nextExercise) return;
   currentWorkout = currentWorkout.nextExercise;
   console.log(currentWorkout);
-
   renderWorkout(currentWorkout);
 });
 

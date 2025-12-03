@@ -10,7 +10,7 @@
     <script src="../../../js/workoutPage.js" defer></script>
   </head>
   <body>
-    <h1>Warmup</h1>
+    <h1 id="workoutType">Warmup</h1>
     <div class="card-wrapper">
       <h2 id="exerciseName">Mini-Squats mit Armheben</h2>
       <img id="exerciseImg" src="" alt="" />
@@ -29,13 +29,9 @@
         <p class="sets">Sets: <strong id="setValue">3</strong></p>
         <p class="reps">Reps: <strong id="repValue">8-12</strong></p>
       </div>
-      <div class="exerciseDescription">
+      <div id="exerciseDescription">
         <h3>Ausführung</h3>
-        <ul>
-          <li>¼-Tiefe Kniebeugen</li>
-          <li>Arme gleichzeitig nach vorne oder hoch führen</li>
-          <li>Brust bleibt offen/li></li>
-        </ul>
+        <ul id="exerciseDescriptionList"></ul>
       </div>
       <p class="hint" id="exerciseUse">
         Wärmt Beine + Brust + Schultern gleichzeitig auf.
