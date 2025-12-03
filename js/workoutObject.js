@@ -23,7 +23,7 @@ class Workout {
     this.sets = sets;
     this.description = Array.isArray(description) ? description : [description];
     this.exerciseDescription = description;
-    this.exerciseHint = hint;
+    this.exerciseUse = hint;
     this.previousExercise = previous;
     this.nextExercise = next;
   }

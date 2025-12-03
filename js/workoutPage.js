@@ -54,6 +54,8 @@ function renderWorkout(workout) {
     step.textContent = element;
     exerciseDescriptionListElement.append(step);
   });
+
+  exerciseUseElement.textContent = workout.exerciseUse;
 }
 
 btnNext.addEventListener("click", () => {
