@@ -65,6 +65,7 @@ function resetCountdown() {
     intervalId = null;
   }
   timerDisplayEl.style.border = "3px solid var(--accent-color";
+  timerDisplayEl.style.backgroundColor = "var(--bg-grey";
 
   console.log(intervalId);
   timerValueEl.innerHTML = initialSeconds;
