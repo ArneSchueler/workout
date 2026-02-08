@@ -8,7 +8,7 @@
 
 body {
   background-color: var(--bg-color);
-  padding: 24px;
+  /* background-image: var(--bg-color); */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,7 +20,7 @@ body {
 }
 
 body > h1 {
-  color: white;
+  color: #9aa6b2;
 }
 
 .last-workout {
@@ -28,7 +28,8 @@ body > h1 {
 }
 
 .card-wrapper {
-  background-color: var(--bg-card);
+  /* background-color: var(--bg-card); */
+  background: var(--bg-card);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,6 +37,8 @@ body > h1 {
   padding: 24px;
   border-radius: var(--border-radius);
   gap: 24px;
+  box-shadow: var(--card-shadow);
+  color: var(--text-color);
 }
 
 .timer-wrapper {
@@ -48,12 +51,13 @@ body > h1 {
 .timer-display {
   background-color: var(--bg-grey);
   border-radius: var(--border-radius);
-  border: 3px solid var(--accent-color);
   height: 74px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 12px;
+  padding-inline: 64px;
+  padding-block: 12px;
   font-size: 16px;
   gap: 8px;
 }
@@ -99,6 +103,8 @@ body > h1 {
 
 .card-wrapper img {
   width: 316px;
+  border-radius: 50px;
+  mix-blend-mode: overlay;
 }
 
 .info {
@@ -126,4 +132,10 @@ body > h1 {
 
 .navigation-btns a {
   width: fit-content;
+}
+
+@media (max-width: 400px) {
+  body {
+    padding-inline: 24px;
+  }
 }

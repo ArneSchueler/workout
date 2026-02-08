@@ -1,0 +1,258 @@
+[
+  {
+    "type": "Warmup A",
+    "name": "Cat–Cow",
+    "img": "../assets/images/gif/cat-cow.webp",
+    "timer": 30,
+    "sets": null,
+    "repsMin": null,
+    "repsMax": null,
+    "description": [
+      "Vierfüßlerstand einnehmen",
+      "Wirbelsäule langsam einrollen (Katze)",
+      "Wirbelsäule langsam durchhängen lassen (Kuh)",
+      "Bewegung mit Atem koppeln"
+    ],
+    "hint": "Mobilisiert Wirbelsäule und bereitet Hüfte und Rücken vor.",
+    "previous": null,
+    "next": null
+  },
+  {
+    "type": "Warmup A",
+    "name": "Hüftkreisen",
+    "img": "../assets/images/gif/hip-circles.webp",
+    "timer": 30,
+    "sets": null,
+    "repsMin": null,
+    "repsMax": null,
+    "description": [
+      "Aufrecht stehen",
+      "Hände in die Hüften",
+      "Große, langsame Kreise aus der Hüfte",
+      "Richtungswechsel nach der Hälfte"
+    ],
+    "hint": "Verbessert Hüftbeweglichkeit, entlastet Knie und unteren Rücken.",
+    "previous": null,
+    "next": null
+  },
+  {
+    "type": "Warmup A",
+    "name": "Glute Bridge",
+    "img": "../assets/images/gif/glute-bridge.webp",
+    "timer": 30,
+    "sets": null,
+    "repsMin": null,
+    "repsMax": null,
+    "description": [
+      "Rückenlage, Füße hüftbreit aufgestellt",
+      "Becken kontrolliert anheben",
+      "Gesäß oben bewusst anspannen",
+      "Langsam absenken"
+    ],
+    "hint": "Aktiviert Gesäßmuskulatur und stabilisiert das Becken.",
+    "previous": null,
+    "next": null
+  },
+  {
+    "type": "Warmup A",
+    "name": "Scapula Push-ups",
+    "img": "../assets/images/gif/scapula-pushups.webp",
+    "timer": 30,
+    "sets": null,
+    "repsMin": null,
+    "repsMax": null,
+    "description": [
+      "Liegestützposition einnehmen",
+      "Arme gestreckt lassen",
+      "Schulterblätter aktiv zusammenziehen",
+      "Schulterblätter wieder auseinanderdrücken"
+    ],
+    "hint": "Aktiviert Schulterblattmuskulatur für sauberes Drücken.",
+    "previous": null,
+    "next": null
+  },
+  {
+    "type": "Warmup A",
+    "name": "Box Squat (leicht)",
+    "img": "../assets/images/gif/box-squat.webp",
+    "timer": null,
+    "sets": 1,
+    "repsMin": 8,
+    "repsMax": 10,
+    "description": [
+      "Schulterbreiter Stand",
+      "Hüfte nach hinten/unten führen",
+      "Gesäß berührt Box leicht",
+      "Explosiv, aber kontrolliert aufstehen"
+    ],
+    "hint": "Technik-Priming für Knie und Hüfte, kein Trainingssatz.",
+    "previous": null,
+    "next": null
+  },
+
+  {
+    "type": "Training A",
+    "name": "Box Squat",
+    "img": "../assets/images/gif/box-squat.webp",
+    "timer": null,
+    "sets": 3,
+    "repsMin": 6,
+    "repsMax": 10,
+    "description": [
+      "Stand schulterbreit",
+      "Hüfte kontrolliert nach hinten führen",
+      "Box nur berühren, nicht absetzen",
+      "Mit Spannung aufstehen"
+    ],
+    "hint": "Knieschonende Squat-Variante mit Fokus auf Hüftkontrolle.",
+    "previous": null,
+    "next": null
+  },
+  {
+    "type": "Training A",
+    "name": "Kurzhantel-Bankdrücken",
+    "img": "../assets/images/gif/dumbbell-bench-press.webp",
+    "timer": null,
+    "sets": 3,
+    "repsMin": 6,
+    "repsMax": 10,
+    "description": [
+      "Schulterblätter nach hinten/unten ziehen",
+      "Hanteln kontrolliert ablassen",
+      "Brust aktiv anspannen",
+      "Explosiv hochdrücken"
+    ],
+    "hint": "Hauptübung für Brust mit guter Schulterstabilität.",
+    "previous": null,
+    "next": null
+  },
+  {
+    "type": "Training A",
+    "name": "Kurzhantelrudern",
+    "img": "../assets/images/gif/dumbbell-row.webp",
+    "timer": null,
+    "sets": 3,
+    "repsMin": 8,
+    "repsMax": 12,
+    "description": [
+      "Oberkörper leicht nach vorne geneigt",
+      "Rücken neutral halten",
+      "Ellbogen zur Hüfte ziehen",
+      "Schulterblatt aktiv zurückziehen"
+    ],
+    "hint": "Gegenspieler zum Drücken, stärkt oberen Rücken.",
+    "previous": null,
+    "next": null
+  },
+  {
+    "type": "Training A",
+    "name": "Seitheben",
+    "img": "../assets/images/gif/lateral-raise.webp",
+    "timer": null,
+    "sets": 2,
+    "repsMin": 12,
+    "repsMax": 15,
+    "description": [
+      "Leichte Vorlage",
+      "Arme seitlich anheben",
+      "Bis knapp unter Schulterhöhe",
+      "Langsam absenken"
+    ],
+    "hint": "Formt seitliche Schulter ohne Gelenkstress.",
+    "previous": null,
+    "next": null
+  },
+  {
+    "type": "Training A",
+    "name": "Kurzhantel-Shrugs",
+    "img": "../assets/images/gif/dumbbell-shrugs.webp",
+    "timer": null,
+    "sets": 2,
+    "repsMin": 12,
+    "repsMax": 15,
+    "description": [
+      "Aufrecht stehen",
+      "Schultern nach oben ziehen",
+      "Oben 2 Sekunden halten",
+      "Langsam ablassen"
+    ],
+    "hint": "Gezielter Reiz für oberen Trapez.",
+    "previous": null,
+    "next": null
+  },
+  {
+    "type": "Training A",
+    "name": "Crunches",
+    "img": "../assets/images/gif/crunches.webp",
+    "timer": null,
+    "sets": 3,
+    "repsMin": 12,
+    "repsMax": 15,
+    "description": [
+      "Rückenlage",
+      "Lendenwirbelsäule am Boden",
+      "Rippen nach unten ziehen",
+      "Kontrolliert einrollen"
+    ],
+    "hint": "Bauchmuskeltraining ohne Hüftbeugerlast.",
+    "previous": null,
+    "next": null
+  },
+
+  {
+    "type": "Cooldown A",
+    "name": "Figure-4 Stretch",
+    "img": "../assets/images/gif/figure-4-stretch.webp",
+    "timer": 40,
+    "sets": null,
+    "repsMin": null,
+    "repsMax": null,
+    "description": [
+      "Rückenlage",
+      "Knöchel auf gegenüberliegendes Knie",
+      "Bein sanft heranziehen",
+      "Dehnung halten"
+    ],
+    "hint": "Entlastet Hüfte und Gesäß nach Squats.",
+    "previous": null,
+    "next": null
+  },
+
+  {
+    "type": "Warmup B",
+    "name": "90/90 Hip Stretch",
+    "img": "../assets/images/gif/90-90-hip-stretch.webp",
+    "timer": 30,
+    "sets": null,
+    "repsMin": null,
+    "repsMax": null,
+    "description": [
+      "Sitzposition im 90/90-Winkel",
+      "Oberkörper aufrecht halten",
+      "Hüfte langsam rotieren",
+      "Seiten wechseln"
+    ],
+    "hint": "Mobilisiert Hüfte, sehr ischiasfreundlich.",
+    "previous": null,
+    "next": null
+  },
+
+  {
+    "type": "Training B",
+    "name": "Glute Bridge",
+    "img": "../assets/images/gif/glute-bridge.webp",
+    "timer": null,
+    "sets": 3,
+    "repsMin": 10,
+    "repsMax": 15,
+    "description": [
+      "Füße hüftbreit aufgestellt",
+      "Becken anheben",
+      "Gesäß aktiv anspannen",
+      "Oben kurz halten"
+    ],
+    "hint": "Hintere Kette ohne Wirbelsäulenstress.",
+    "previous": null,
+    "next": null
+  }
+]
